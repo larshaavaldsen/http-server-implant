@@ -1,5 +1,7 @@
 # HTTP Server Implant
 
+[![Build and push to Docker](https://github.com/marzshine/http-server-implant/actions/workflows/main.yml/badge.svg)](https://github.com/marzshine/http-server-implant/actions/workflows/main.yml)
+
 This is a basic project, for a simple web server that triggers a webhook when it is reached. The purpose is to act similar to a CanaryToken, where this server sits in an environment and alerts when it is reached, indicating potential unauthorized users on the network. I built this application to learn how docker works, and also because I wanted a simple implant like this, that does not require the client to hit another URL for the alert to be triggered (i.e. embedding a CanaryToken webhook into a webpage with "\<img src='canary token'>"). It works with any webhook, but I have tested it and deployed it using a Discord webhook.
 
 ## Usage
