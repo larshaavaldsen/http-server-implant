@@ -1,0 +1,15 @@
+{
+  "name": "http-server-implant",
+  "version": "1.0.0",
+  "description": "This is a basic project, for a simple web server that triggers a webhook when it is reached. The purpose is to act similar to a CanaryToken, where this server sits in an environment and ale rts when it is reached, indicating potential unauthorized users on the network. I built this application to learn how docker works, and also because I wanted a simple implant like this, that does not require the client to hit another URL for the alert to be triggered (i.e. embedding a CanaryToken webhook into a webpage with \"<img src='canary token'>\").",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}
